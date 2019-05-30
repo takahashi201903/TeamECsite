@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+table.v,th, td {
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 3px dotted #d3d3d3;
+	line-height: 1.5;
+	text-align: left;
+	width: 50%;
+	margin-top: 3%;
+	font-size: 15px;
+}
+
+table.v th {
+	width: 20%;
+	padding: 0.5rem;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	position: relative;
+	background: #eee;
+	color: #666666;
+}
+
+table.v td {
+	width: 40%;
+	padding: 0.5rem;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
